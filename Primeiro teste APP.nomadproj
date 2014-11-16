@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <CompiledOutputPath>distrib\</CompiledOutputPath>
+    <OutputPath>bin\$(Configuration)</OutputPath>
+    <CordovaVersion>3.0</CordovaVersion>
+    <BuildCloudVersion>2.0</BuildCloudVersion>
+    <Name>Primeiro teste APP</Name>
+    <RootNamespace>Primeiro teste APP</RootNamespace>
+    <ProjectGuid>{53ff06a2-fa9d-4062-9c1b-f9577e0c97f1}</ProjectGuid>
+    <LastBuildVersion>1.0.0.0</LastBuildVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="404.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icon1.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\banner-left.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\banner-left1.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\g01.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\g02.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\g03.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\icon1.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\icon2.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img-sprite.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img-sprite.psd">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\logo.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic0.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sobre.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="noticias.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="denuncie.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\magnific-popup.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\style.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\404.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\about-img.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\about-img2.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\about-img3.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\about-img4.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\about-img5.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\about-img6.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\about-img7.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\about-img8.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\about-img9.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\address.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\arrow.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\b-heart.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\b.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\banner.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\bg-h2.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\blog-img1.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\blog-img10.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\blog-img2.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\blog-img3.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\blog-img4.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\blog-img5.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\blog-img6.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\blog-img7.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\blog-img8.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\blog-img9.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\c1.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\c2.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\c3.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\c4.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\client1.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\client2.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\client3.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\client4.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\client5.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\client6.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\client7.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\client8.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\close.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\d.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\email.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\f.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\g.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\g_zoom.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\heart.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\icon-remove.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\likes.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\list-img.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\list-img1.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\list-img2.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\list-img4.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\list-img5.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\loading_background.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\msg.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\nav_icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\p1.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\phone.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic1.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic10.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic11.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic12.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic13.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic14.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic15.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic16.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic17.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic18.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic19.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic2.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic20.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic3.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic4.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic5.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic6.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic7.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic8.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\pic9.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\r.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\right-a.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\search.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\soc.psd">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\t-pic1.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\t-pic2.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\t-pic3.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\t-pic4.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\t-pic5.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\t.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\tickmark-icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\tw.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="index.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="indexANTIGO.html" />
+    <Content Include="cordova.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\choosephoto.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\jquery.flexisel.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\jquery.magnific-popup.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\jquery.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\jquery.wmuSlider.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\modernizr.custom.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="denuncias.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="project.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\jquery-1.6.4.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\jquery.mobile-1.2.0.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="single.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="style\jquery.mobile-1.2.0.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\android\icon-hdpi.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\android\icon-ldpi.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\android\icon-mdpi.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\android\icon-xhdpi.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\android\splash-hdpi.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\android\splash-ldpi.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\android\splash-mdpi.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\android\splash-xhdpi.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\Default%402x~iphone.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\Default-568h%402x~iphone.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\Default-Landscape~ipad.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\Default-Portrait~ipad.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\Default~iphone.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\icon%402x.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\icon-72%402x.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\icon-72.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\ios\icon.png">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="icons\" />
+    <Folder Include="icons\android\" />
+    <Folder Include="icons\ios\" />
+    <Folder Include="images" />
+    <Folder Include="css" />
+    <Folder Include="js" />
+    <Folder Include="style" />
+    <Folder Include="scripts" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
+  <Target Name="ResolveReferences" />
+  <Target Name="CoreCompile" />
+  <Target Name="CreateManifestResourceNames" />
+  <Target Name="CopyFilesToOutputDirectory">
+    <ItemGroup>
+      <AbsoluteContentDestinations Include="$(OutputPath)%(Content.Identity)" />
+    </ItemGroup>
+    <Copy SourceFiles="@(Content)" DestinationFiles="@(AbsoluteContentDestinations)" />
+  </Target>
+</Project>
